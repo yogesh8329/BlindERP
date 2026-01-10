@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="../BlindERP.Application/BlindERP.Application.csproj" />
+  <Project Path="../BlindERP.Domain/BlindERP.Domain.csproj" />
+  <Project Path="../BlindErp.Infrastructure/BlindErp.Infrastructure.csproj" />
+  <Project Path="BlindERP.Api/BlindERP.Api.csproj" />
+</Solution>
