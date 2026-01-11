@@ -1,4 +1,4 @@
-name: CI - Build BlindERP
+name: CI - Build BlindERP API
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Restore
-        run: dotnet restore BlindERP.slnx
+        run: dotnet restore BlindERP.Api/BlindERP.Api.csproj
 
       - name: Build
-        run: dotnet build BlindERP.slnx --configuration Release --no-restore
+        run: dotnet build BlindERP.Api/BlindERP.Api.csproj --configuration Release --no-restore
