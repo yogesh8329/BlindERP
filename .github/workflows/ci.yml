@@ -17,8 +17,8 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Restore
-        run: dotnet restore BlindERP.Api/BlindERP.Api.csproj
+      - name: Restore API project
+        run: dotnet restore ./BlindERP.Api/BlindERP.Api.csproj
 
-      - name: Build
-        run: dotnet build BlindERP.Api/BlindERP.Api.csproj --configuration Release --no-restore
+      - name: Build API project
+        run: dotnet build ./BlindERP.Api/BlindERP.Api.csproj --configuration Release --no-restore
